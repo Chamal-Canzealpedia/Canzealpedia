@@ -1,0 +1,164 @@
+body{
+        background-color: black;
+        font-family: 'Century Gothic';
+}
+
+
+.topnav{
+        background-color:darkblue;
+        overflow: visible;
+        text-align: right;
+        
+}
+
+
+.topnav button{  
+        color: black;
+          text-align: right;
+          padding: 1vw 1vw;
+          text-decoration:none;
+          font-size: 2vw;
+}
+
+.topnav button:hover{
+                background-color: white;
+                color: black;
+                transition: 0.5s;
+}
+
+
+.topnav button{
+     background-color:darkblue;
+     color:white;
+     border-color: black;
+     border-radius: calc(5px + 0.1vw);
+     border-style: double;
+     margin-left: 10px;
+     margin-right: 10px;
+     border: 3px solid darkblue;
+
+}
+
+
+.des{border: 2px solid white;}
+
+
+.des h2{
+        color: rgb(255, 255, 255);
+        margin: 10px 10px 5px 5px;
+        font-size: calc(25px + 0.36vw);
+}
+
+
+.des ul{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: calc(15px + 0.36vw);
+}
+
+
+.lesson {
+        margin-right:10px ;
+        text-align: center;
+}
+
+
+
+.lesson img{
+        max-width: 100%;
+        margin-top: 20px;
+        margin-left: 3px;
+        opacity: 80%;    
+        border-style: double;  
+        border-radius: calc(10px + 0.3vw);   
+        border: 3px solid white;                      
+}
+
+
+
+.lesson img:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+        opacity: 100%;
+
+}
+
+
+
+.lesson a{text-align: center;}
+
+
+hr{
+        background-color: black; 
+        border-width: 3px;
+}
+
+
+
+.social img{
+        height: 48px;
+        width: 48px;
+}
+
+
+.social a img:hover{
+        transform: scale(1.2);
+        transition: 0.5s;
+}
+
+
+.end-note{
+        color: aliceblue;
+        text-align: center; 
+        font-size: 20px;
+}
+
+
+
+.sub-les{text-align: center;}
+
+
+.sub-les img{
+    border: 3px solid white;
+    opacity: 80%;
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+
+}
+
+.sub-les img:hover{
+                   transform: scale(1.1);
+                   transition: 0.3s;
+                   opacity: 100%;
+}
+
+
+
+
+.les-main {
+        text-align: center;
+}
+
+
+.les-main  a img{ border: 3px solid white;
+               opacity: 90%;
+               max-width: 100%;
+               border-radius: 5px;
+               margin-top: 20px;
+               margin-bottom: 0px;
+               margin-right: 20px;
+           
+}
+
+.les-main a img:hover{transform:scale(1.1);
+                   transition: 0.3s;
+                   opacity:100%;
+}
+
+
+
+
+
